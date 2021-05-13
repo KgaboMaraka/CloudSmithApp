@@ -40,7 +40,7 @@
             var genderCode = idNumber.substring(6, 10);
             var gender = parseInt(genderCode) < 5000 ? "Female" : "Male";
 
-            // get citzenship
+            // get citizenship
             var citzenship = parseInt(idNumber.substring(10, 11)) == 0 ? "Yes" : "No";
 
             var tempTotal = 0;
